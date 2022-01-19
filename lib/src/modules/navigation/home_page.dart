@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:mobile_test/src/modules/data_services/data_service.dart';
 import 'package:mobile_test/src/modules/models/country_model.dart';
 import 'package:mobile_test/src/modules/navigation/country_details/country_details_page.dart';
-import 'package:mobile_test/src/modules/navigation/drawer.dart';
 import 'package:mobile_test/src/widgets/search_widget.dart';
 
 class HomePage extends StatefulWidget {
@@ -38,7 +37,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: CustomDrawer(),
       appBar: AppBar(
         title: Text('Atos'),
       ),
